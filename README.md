@@ -2,6 +2,10 @@
 
 A lightweight, cross-platform 3D model viewer built with modern OpenGL, GLFW, and GLAD. 
 
+![Screenshot](docs/images/scr.png) 
+ 
+
+
 ## 🧰 Features 
 ✅ OpenGL 3.3 Core Context
 ✅ GLFW for window & input handling
