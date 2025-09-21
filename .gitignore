@@ -13,6 +13,7 @@ install_manifest.txt
 compile_commands.json
 CTestTestfile.cmake
 Testing/
+.cache
 
 # Executables and libraries (Unix)
 *.o
