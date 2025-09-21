@@ -29,9 +29,9 @@ make -j4
 ./bin/SS3DV
 ``` 
 ***A note on GLAD***
-This progect uses glfw via [GLAD, https://glad.dav1d.de/](https://glad.dav1d.de/).
+This progect uses glfw via [GLAD](https://glad.dav1d.de/).
 The permalink for GLAD used in this project is following:
-[https://glad.dav1d.de/#language=c&specification=gl&api=gl%3D4.6&api=gles1%3Dnone&api=gles2%3Dnone&api=glsc2%3Dnone&profile=core&loader=on](https://glad.dav1d.de/#language=c&specification=gl&api=gl%3D4.6&api=gles1%3Dnone&api=gles2%3Dnone&api=glsc2%3Dnone&profile=core&loader=on)
+[GLAD permalink](https://glad.dav1d.de/#language=c&specification=gl&api=gl%3D4.6&api=gles1%3Dnone&api=gles2%3Dnone&api=glsc2%3Dnone&profile=core&loader=on)
 Feel free to change it according your platform/needs.
 
 ## 📂 Project Structure 
