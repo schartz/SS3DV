@@ -1,0 +1,81 @@
+# Build directories
+/build/
+/bin/
+/out/
+*.build/
+CMakeLists.txt.user
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+Testing/
+
+# Executables and libraries (Unix)
+*.o
+*.a
+*.so
+*.out
+*.app
+*.exe
+*.dll
+*.lib
+
+# Your project's built executable (adjust name if needed)
+/bin/SS3DV
+/SS3DV
+
+# Temporary files
+*.tmp
+*.bak
+*~
+*.swp
+.DS_Store
+Thumbs.db
+
+# Editor and IDE files
+.vscode/
+.idea/
+.directory
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Logs and databases
+*.log
+*.sqlite
+
+# Environment and local config
+.env
+.local
+
+# GLAD/OpenGL specific — if you generated GLAD online, you might want to keep it,
+# but if you plan to regenerate it, you can ignore glad.c (optional)
+# Libs/glad/src/glad.c
+
+# GLFW — you’re including source, so keep it. But ignore its build artifacts
+Libs/glfw/src/*.o
+Libs/glfw/CMakeFiles/
+Libs/glfw/cmake_install.cmake
+Libs/glfw/Makefile
+Libs/glfw/glfw3Config.cmake
+Libs/glfw/glfw3ConfigVersion.cmake
+Libs/glfw/src/glfw3.pc
+Libs/glfw/src/libglfw3.a
+Libs/glfw/src/glfw3.h
+Libs/glfw/src/glfw_config.h
+
+# Optional: Ignore downloaded ZIPs or archives
+*.zip
+*.tar.gz
+*.7z
+
+# Optional: Ignore shader compilation artifacts (if you compile shaders to binary)
+*.spv
+*.vert.bin
+*.frag.bin
